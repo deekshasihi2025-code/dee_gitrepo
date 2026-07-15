@@ -1,1 +1,42 @@
-HI
+Common Git commands
+Command	Purpose
+git clone <repo>	Copy a remote repository to your local machine
+git status	Check the current state of the working directory
+git add <file>	Stage changes for commit
+git commit -m "message"	Save staged changes with a message
+git push	Upload local commits to the remote repository
+git pull	Fetch and merge changes from the remote repository
+git fetch	Download updates without merging
+git branch	List or create branches
+git checkout <branch>	Switch to another branch
+git switch <branch>	Modern command to switch branches
+git merge <branch>	Merge another branch into the current branch
+git rebase <branch>	Reapply commits on top of another branch
+git log	View commit history
+git diff	Show code differences
+git stash	Temporarily save uncommitted changes
+git restore <file>	Discard changes in a file
+git reset	Undo commits or unstage changes
+Git workflow
+Clone the repository.
+Create a feature branch.
+Make code changes.
+Check changes using git status.
+Stage changes with git add.
+Commit changes with a meaningful message.
+Pull the latest changes from the remote repository.
+Resolve merge conflicts if any.
+Push the branch to the remote repository.
+Create a Pull Request (PR) for code review.
+After approval, merge the branch into the main branch.
+Git interview questions
+What is Git, and why is it used?
+What is the difference between Git and GitHub?
+What is the difference between git fetch and git pull?
+Explain branching and merging in Git.
+How do you resolve merge conflicts?
+What is Git rebase, and how is it different from merge?
+What is Git stash?
+What is the difference between git reset and git revert?
+What is a Pull Request (PR)?
+What are the benefits of using Git in team development?
