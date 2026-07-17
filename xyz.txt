@@ -1,4 +1,5 @@
 Hi i am checking POLL SCM
+Hello
 
 git clone <repo>	Copy a remote repository to your local machine
 git status	Check the current state of the working directory
